@@ -1,0 +1,196 @@
+body {
+ 	font-size: 18px; 
+  font-family: 'Alegreya';
+}
+
+h1, h2, #top-bar li {
+ 	
+}
+
+/*
+*
+*  TOP BAR
+*
+*/
+
+#top-bar {
+  display: none;
+ 	overflow: hidden;
+  position: fixed; 
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,.85);
+  height: 60px;
+}
+
+#top-bar-content {
+  display: inline-block;
+}
+
+#top-bar img {
+ 	height: 50px; 
+  display: inline-block;
+  float: left;
+  padding: 5px 30px;
+  padding-top: 5px;
+}
+
+#top-bar ul {
+ 	display: inline-block;
+  float: left;
+}
+
+#top-bar ul li {
+ 	display: inline-block;
+  float: left;
+  padding: 0 30px;
+  color: #e8e8e8;
+ 	line-height: 60px;
+  font-size: 
+}
+
+#top-bar ul li:hover {
+ 	background-color: #3b3b3b; 
+}
+
+/*
+*
+* MAIN PAGE
+*
+*/
+
+#front-page {
+  width: 100%;
+  height: 700px; /* reset height with jQuery */
+  display: table;
+  text-align: center;
+}
+
+#main-logo {
+ 	height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+#front-page-text {
+  display: table-cell;
+ 	font-size: 60px;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+.dotted-underline {
+ 	border-bottom: 1px dotted;
+}
+
+.dotted-underline:hover {
+ 	cursor: help; 
+}
+
+#page-1 img {
+ 	width: 100%; 
+  height: 300px;
+}
+
+.title {
+ 	font-size: 60px; 
+  margin-bottom: 10px;
+}
+
+.body-text {
+ 	line-height: 1.5; 
+}
+
+.quote {
+ 	font-size: 48px;
+  font-style: oblique;
+  margin: 20px;
+  line-height: 1.5;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.page {
+ 	margin-top: 350px; 
+}
+
+ul#languages { 
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+li.language {
+
+}
+
+li.language img {
+  position: absolute;
+ 	height: 210px;
+  width: 210px;
+  opacity: .65;
+  display: none;
+}
+
+li.language span {
+ 	position: absolute;
+  line-height: 210px;
+  width: 210px;
+  text-align: center;
+}
+
+li.html5 img, li.html5 span {
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+li.css3 img, li.css3 span {
+  display: block;
+  top: 90px;
+  left: 125px;
+}
+
+li.php img, li.php span {
+ 	display: block;
+  top: 0;
+  left: 250px;
+}
+
+li.jquery img, li.jquery span {
+ 	display: block;
+  top: 90px;
+  left: 375px;
+}
+
+p.speech-bubble  {
+ 	line-height: 1.5;
+  margin-top: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
