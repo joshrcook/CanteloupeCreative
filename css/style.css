@@ -7,6 +7,11 @@ h1, h2, #top-bar li {
  	
 }
 
+div.container-24 {
+  z-index: 3;
+}
+
+
 /*
 *
 *  TOP BAR
@@ -89,9 +94,37 @@ h1, h2, #top-bar li {
  	cursor: help; 
 }
 
-#page-1 img {
- 	width: 100%; 
-  height: 300px;
+.page-picture {
+  height: 400px;
+  position: relative;
+  margin: 100px 0;
+  z-index: 2;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.page-picture .picture-text {
+  top: 100px;
+  display: block;
+  text-align: left;
+}
+
+.page-picture .picture-text span {
+  background-color: rgba(10, 10, 10, 0.8000);
+  color: white;
+  font-size: 60px;
+  padding: 10px;
+  line-height: 93px;
+}
+
+.page-picture .picture-text span.dotted-underline {
+  background-color: rgba(0,0,0,0);
+  padding: 0px;
+}
+
+.page-picture img {
+  max-width: 125%;
+
 }
 
 .title {
@@ -110,10 +143,6 @@ h1, h2, #top-bar li {
   line-height: 1.5;
   text-align: center;
   border-top: 1px solid black;
-}
-
-.page {
- 	margin-top: 350px; 
 }
 
 ul#languages { 
@@ -168,7 +197,93 @@ li.jquery img, li.jquery span {
 p.speech-bubble  {
  	line-height: 1.5;
   margin-top: 2em;
+  clear: left;
 }
+
+div#mobile-devices {
+ 	position: relative;
+  height: 450px;
+}
+
+#mobile-devices img {
+ 	position: absolute; 
+}
+
+img#imac {
+ 	left: 0;
+  top: 150px;
+  background: white;
+}
+
+img#ipad {
+ 	left: 300px;
+  top: 246px;
+  background: white;
+}
+
+img#iphone {
+ 	left: 470px;
+  top: 354px;
+  background: white;
+}
+
+label {
+  display: block;
+  float: left;
+  text-align: right;
+ 	 width: 100px;
+  margin-right: 5px;
+}
+
+input[type=text] {
+ 	margin-bottom: 10px; 
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 350px;
+  padding: 5px;
+}
+
+textarea {
+ 	border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 350px;
+}
+
+input[type=submit] {
+ 	border: 0;
+  padding: 5px 10px;
+  background-color: black;
+  text-align: right;
+  position: relative;
+  left: 105px;
+  margin-top: 10px;
+  font-family: 'Alegreya';
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.form-background {
+ 	background: #f3b479; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+
+
+
 
 
 
